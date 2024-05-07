@@ -42,7 +42,7 @@ SSH into your ec2 instance
 - replace the default index.html in the apache directory: `mv index.html /var/www/html`
   
 ### Bash Script:
-- Create `user_report.sh`:
+- Create a user report script: `vim user_report.sh`
   
   ```bash
   #!/bin/bash
@@ -64,7 +64,7 @@ SSH into your ec2 instance
 ### Additional Notes:
 To access your website:
 - login to the aws console and copy your ec2 public address: `http//:your-ip-address`
-Always ensure to follow AWS best practices and security guidelines.
+- Always ensure to follow AWS best practices and security guidelines.
 
 
 
